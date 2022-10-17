@@ -27,3 +27,6 @@ docker tag nodejs-calculadora:v1 juliopari/nodejs-calculadora:v1
 docker push juliopari/nodejs-calculadora:v1
 ```
 
+## 6. Jest (test)
+
+<img src='https://github.com/juliopari/nodejs-express-jest-calculadora-routes-services/blob/main/jest-test.png' />
