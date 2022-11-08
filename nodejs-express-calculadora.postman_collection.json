@@ -1,0 +1,301 @@
+{
+	"info": {
+		"_postman_id": "a3e9efbb-4d84-4c83-8031-63e27171a3a0",
+		"name": "nodejs-express-calculadora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3256611"
+	},
+	"item": [
+		{
+			"name": "calculadora-sumar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 4,\r\n    \"numero2\": 89\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/calculadora/sumar",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"calculadora",
+						"sumar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-sumar-docker",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 4,\r\n    \"numero2\": 45\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/v1/calculadora/sumar",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"v1",
+						"calculadora",
+						"sumar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-sumar-digital-ocean",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 4,\r\n    \"numero2\": 11\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://206.189.240.132/api/v1/calculadora/sumar",
+					"protocol": "http",
+					"host": [
+						"206",
+						"189",
+						"240",
+						"132"
+					],
+					"path": [
+						"api",
+						"v1",
+						"calculadora",
+						"sumar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-sumar-azure-aks",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 4,\r\n    \"numero2\": 11\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://10.224.0.5/api/v1/calculadora/sumar",
+					"protocol": "http",
+					"host": [
+						"10",
+						"224",
+						"0",
+						"5"
+					],
+					"path": [
+						"api",
+						"v1",
+						"calculadora",
+						"sumar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-sumar-azure-apim",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "f38d6e39a9ae4df5882594003b230145",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 4,\r\n    \"numero2\": 11\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://my-apim-aprendeibm.azure-api.net/nodejs-calculadora/sumar",
+					"protocol": "https",
+					"host": [
+						"my-apim-aprendeibm",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"nodejs-calculadora",
+						"sumar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-sumar-azure-apim Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "f38d6e39a9ae4df5882594003b230145",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 4,\r\n    \"numero2\": 11\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://my-apim-aprendeibm.azure-api.net/echo/resource",
+					"protocol": "https",
+					"host": [
+						"my-apim-aprendeibm",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"echo",
+						"resource"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-restar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 10,\r\n    \"numero2\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/calculadora/restar",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"calculadora",
+						"restar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-multiplicar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 10,\r\n    \"numero2\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/calculadora/multiplicar",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"calculadora",
+						"multiplicar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculadora-dividir",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero1\": 15,\r\n    \"numero2\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/calculadora/dividir",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"calculadora",
+						"dividir"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
